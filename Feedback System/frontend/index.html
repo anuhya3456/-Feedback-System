@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Placement Training Feedback</h1>
+    <form id="feedbackForm">
+        <label>How satisfied are you with the training?</label><br>
+        <input type="radio" name="satisfaction" value="Very Satisfied"> Very Satisfied<br>
+        <input type="radio" name="satisfaction" value="Satisfied"> Satisfied<br>
+        <input type="radio" name="satisfaction" value="Neutral"> Neutral<br>
+        <input type="radio" name="satisfaction" value="Unsatisfied"> Unsatisfied<br><br>
+
+        <label>What could be improved?</label><br>
+        <textarea name="improvement" rows="4" cols="50"></textarea><br><br>
+
+        <button type="button" onclick="submitFeedback()">Submit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
